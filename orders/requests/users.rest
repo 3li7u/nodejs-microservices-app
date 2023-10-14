@@ -1,0 +1,27 @@
+GET http://localhost:8000/api/users
+
+###
+GET http://localhost:8000/api/users/65296c46f6ac502efde58011
+
+###
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "username": "3li7u",
+  "full_name": "Ali Alhussein",
+  "email": "test@test.test",
+  "password": "12345678"
+}
+
+
+###
+PUT http://localhost:8000/api/users/65296c68f6ac502efde58013
+Content-Type: application/json
+
+{
+  "username": "3li7u"
+}
+
+###
+DELETE http://localhost:8000/api/users/65296c46f6ac502efde58011
