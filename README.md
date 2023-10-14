@@ -8,7 +8,7 @@ Clone this repo and then enter each service folder and install the dependencies 
 
 Terminal #1
 ```bash
-$ git clone 
+$ git clone https://github.com/3li7u/nodejs-microservices-app.git
 $ cd gateway
 $ npm install
 $ npm start
